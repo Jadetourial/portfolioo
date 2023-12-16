@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font families*/
+}
+body{
+    background: rgb(11, 40, 98);
+}
+/*HOME SECTION*/
+    /*General*/
+#navi{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    background: rgb(47, 193, 250);
+    padding: 20px;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    border-radius: 30px;
+}
+#home{
+    background: rgb(11, 40, 98);
+    height: 50vh;
+}
+#main-head{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(47, 193, 250);
+}
+#icon{
+    height: 30vh;
+    margin-top: 20px;
+    margin-left: 27vh;
+}
+#navi ul li{
+    list-style-type: none;
+    margin-right: 40vh;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background: rgb(11, 40, 98);
+    border-radius: 6px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    text-align: center;
+    color: rgb(182, 182, 182);
+    transition: transform 0.5s;
+}
+#navi ul li a i{
+    margin-right: 10px;
+    color: rgb(47, 193, 250);
+}
+    /*Hover*/
+#navi ul li:hover{
+    transform: scale(1.1);
+}
+
+
+/*ABOUT SECTION*/
+    /*General*/
+#about{
+    display: none;
+    background: rgb(47, 193, 250);
+    height: 50vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    border-radius: 30px;
+    text-align: center;
+    color: rgb(11, 40, 98);
+    font-weight: 700;
+}
+#about i{
+    margin-left: 10px;
+}
+#about p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+#about-me{
+    padding-top: 25px;
+}
+.para1{
+padding-top: 20px;
+}
+    /*Hover*/
+
+
+
+
+/*COMMS SECTION*/
+    /*General*/
+#comms{
+    /* display: none;*/
+    background: rgb(47, 193, 250);
+    height: 50vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    border-radius: 30px;
+    text-align: center;
+    color: rgb(11, 40, 98);
+    font-weight: 700;
+}
+#terms i{
+    margin-left: 15px;
+}
+#terms span{
+    font-size: 16px;
+}
+#terms{
+    padding-top: 20px;
+}  
+    /*Hover*/
+
+
+
+/*PORTFOLIO SECTION*/
+    /*General*/
+
+    /* display: none;*/
+    /*Hover*/
+
+
+
+/*CONTACT SECTION*/
+    /*General*/
+    /* display: none;*/
+    /*Hover*/
